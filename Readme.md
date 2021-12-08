@@ -1,6 +1,6 @@
 # Project Prevent
 
-This repository contains the Python notebook and data necessary to run the notebook. We utilize difference-in-difference, Bacon Decomposition, the Callaway Method, and Causal Random Forest to evaluate whether state laws requiring or encouraging education on Child Sexual Abuse (CSA) in schools during the years 2005 through 2019 have an impact on reports of CSA. 
+This repository contains the Python notebook and data necessary to run the notebook. We utilize difference-in-difference, Bacon Decomposition, the Callaway Method, Borusyak, Jaravel and Speiss (2021) estimator, and Causal Random Forest to evaluate whether state laws requiring or encouraging education on Child Sexual Abuse (CSA) in schools during the years 2005 through 2019 have an impact on reports of CSA. 
 
 ## Downloading Data
 
@@ -12,7 +12,7 @@ uploaded = files.upload()
 
 ### Sample Data Note
 
-We have provided a sample dataset of our CSA data where the variable names are the same as our original, however all the values are randomly generated. The data types in the sample set match the original data types used. The original CSA data cannot be provided as it is IRB restricted. You can apply for access to the original data set or learn more at the [U.S. Department of Health & Human Services](https://www.acf.hhs.gov/cb/data-research/ncands).
+We have provided two sample datasets of our CSA data where the variable names are the same as our original, however all the values are randomly generated. These files are called *sample_data_capstone.csv* and *sample_missing_reports.csv*. The data types in the sample sets match the original data types used. The original CSA data cannot be provided as it is IRB restricted. You can apply for access to the original data set or learn more at the [U.S. Department of Health & Human Services](https://www.acf.hhs.gov/cb/data-research/ncands).
 
 
 ## Dependencies
@@ -42,7 +42,12 @@ When you reach this, please enter the number `1`.
 
 ## Code
 
-Use the following to access our code in Google Colab.
+### Installing Anaconda
 
-* Insert colab link here 
-* Or provide further info on how to open if we share the notebook in another format.
+The easiest way to open the notebook is to utilize Anaconda. Follow the [installation instructions for Anaconda](https://www.anaconda.com/products/individual). 
+
+After installing Anaconda you can open the code file *MasterProjectPrevent.ipynb*.
+
+### Note
+
+The last portion of the notebook is on social media analytics. However, this code will not run unless you have a Twitter API account. This portion of our analysis proved to not be fruitful and is not needed to recreate our results, but the code is provided for reference.
